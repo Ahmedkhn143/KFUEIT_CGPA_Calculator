@@ -1,5 +1,7 @@
 🎓 Modern CGPA Calculator
 
+![KFUEIT CGPA Calculator Demo](https://ahmedkhn143.github.io/CGPA-Calculator/preview-image.png)
+
 A visually stunning, fully responsive SGPA & CGPA Calculator built with modern web technologies. This project features a futuristic "Hyper-Neon" glassmorphism aesthetic, interactive particle backgrounds, and smooth animations to make grade calculation an engaging experience.
 
 ✨ Features
