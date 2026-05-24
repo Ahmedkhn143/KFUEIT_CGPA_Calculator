@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KFUEIT CGPA Calculator - Khwaja Fareed University</title>
-    <meta name="description" content="Calculate your CGPA and SGPA easily with the accurate KFUEIT CGPA Calculator for Khwaja Fareed University of Engineering & Information Technology (KFUEIT) students." />
-    <meta name="keywords" content="KFUEIT CGPA Calculator, Khwaja Fareed University of Engineering & Information Technology, KFUEIT calculator, SGPA calculator KFUEIT, KFUEIT Rahim Yar Khan" />
+    <meta name="description"
+        content="Calculate your CGPA and SGPA easily with the accurate KFUEIT CGPA Calculator for Khwaja Fareed University of Engineering & Information Technology (KFUEIT) students." />
+    <meta name="keywords"
+        content="KFUEIT CGPA Calculator, Khwaja Fareed University of Engineering & Information Technology, KFUEIT calculator, SGPA calculator KFUEIT, KFUEIT Rahim Yar Khan" />
     <meta property="og:title" content="KFUEIT CGPA Calculator" />
-    <meta property="og:description" content="Calculate your CGPA and SGPA easily for Khwaja Fareed University of Engineering & Information Technology." />
+    <meta property="og:description"
+        content="Calculate your CGPA and SGPA easily for Khwaja Fareed University of Engineering & Information Technology." />
     <meta property="og:image" content="https://ahmedkhn143.github.io/CGPA-Calculator/preview-image.png" />
     <meta property="og:url" content="https://ahmedkhn143.github.io/CGPA-Calculator/" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <canvas id="confettiCanvas"></canvas>
     <canvas id="bgCanvas"></canvas>
@@ -23,12 +28,7 @@
         <h1> 🎓KFUEIT CGPA Calculator</h1>
         <p class="subtitle">Fast. Colorful. Precise.</p>
 
-        <div class="hero-banner">
-            <img src="images/hero-banner.png" alt="KFUEIT CGPA Calculator - Academic Excellence" class="hero-img" />
-            <div class="hero-overlay">
-                <span class="hero-badge">🎓 KFUEIT</span>
-            </div>
-        </div>
+
 
         <div class="name-section">
             <input type="text" id="studentName" placeholder="Student Name" autocomplete="off">
@@ -49,7 +49,7 @@
                         <th style="width: 15%; text-align:center">Grade</th>
                         <th style="width: 15%; text-align:center">Credit</th>
                         <th style="width: 10%; text-align:center">GP</th>
-                        <th style="width: 10%"></th> 
+                        <th style="width: 10%"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -100,19 +100,71 @@
             <h2>Grading Scale</h2>
             <div class="scale-table-wrapper">
                 <table class="scale-table">
-                    <tr><th>Grade</th><th>Marks</th><th>GPA</th></tr>
-                    <tr><td>A+</td><td>95-100</td><td>4.00</td></tr>
-                    <tr><td>A</td><td>86-94</td><td>4.00</td></tr>
-                    <tr><td>A-</td><td>80-85</td><td>3.70</td></tr>
-                    <tr><td>B+</td><td>76-79</td><td>3.30</td></tr>
-                    <tr><td>B</td><td>72-75</td><td>3.00</td></tr>
-                    <tr><td>B-</td><td>68-71</td><td>2.70</td></tr>
-                    <tr><td>C+</td><td>64-67</td><td>2.30</td></tr>
-                    <tr><td>C</td><td>60-63</td><td>2.00</td></tr>
-                    <tr><td>C-</td><td>57-59</td><td>1.70</td></tr>
-                    <tr><td>D+</td><td>54-56</td><td>1.30</td></tr>
-                    <tr><td>D</td><td>50-53</td><td>1.00</td></tr>
-                    <tr><td>F</td><td>&lt;50</td><td>0.00</td></tr>
+                    <tr>
+                        <th>Grade</th>
+                        <th>Marks</th>
+                        <th>GPA</th>
+                    </tr>
+                    <tr>
+                        <td>A+</td>
+                        <td>95-100</td>
+                        <td>4.00</td>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>86-94</td>
+                        <td>4.00</td>
+                    </tr>
+                    <tr>
+                        <td>A-</td>
+                        <td>80-85</td>
+                        <td>3.70</td>
+                    </tr>
+                    <tr>
+                        <td>B+</td>
+                        <td>76-79</td>
+                        <td>3.30</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td>72-75</td>
+                        <td>3.00</td>
+                    </tr>
+                    <tr>
+                        <td>B-</td>
+                        <td>68-71</td>
+                        <td>2.70</td>
+                    </tr>
+                    <tr>
+                        <td>C+</td>
+                        <td>64-67</td>
+                        <td>2.30</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>60-63</td>
+                        <td>2.00</td>
+                    </tr>
+                    <tr>
+                        <td>C-</td>
+                        <td>57-59</td>
+                        <td>1.70</td>
+                    </tr>
+                    <tr>
+                        <td>D+</td>
+                        <td>54-56</td>
+                        <td>1.30</td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td>50-53</td>
+                        <td>1.00</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>&lt;50</td>
+                        <td>0.00</td>
+                    </tr>
                 </table>
             </div>
             <button class="close-btn" onclick="window.toggleModal('scaleModal')">Close</button>
@@ -136,8 +188,10 @@
     </div>
 
     <footer style="text-align: center; margin-top: 30px; padding: 20px; font-size: 14px; color: #888;">
-        <p>Developed for the students of <strong>Khwaja Fareed University of Engineering & Information Technology (KFUEIT)</strong> to easily calculate their SGPA and CGPA.</p>
+        <p>Developed for the students of <strong>Khwaja Fareed University of Engineering & Information Technology
+                (KFUEIT)</strong> to easily calculate their SGPA and CGPA.</p>
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
